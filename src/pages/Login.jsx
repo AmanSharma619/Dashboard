@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { LayoutDashboard } from 'lucide-react';
 import { UseFirebase } from '../firebase';
-//Name Changed to login.jsx from Login.jsx
+
 const Login = () => {
     const [isSignUp, setIsSignUp] = useState(false);
     const [email, setEmail] = useState('');
